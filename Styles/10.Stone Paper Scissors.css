@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  .moveicon {
+    height: 40px;
+  }
+  .movebutton {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 58px;
+    padding: 18px;
+    margin-right: 18px;
+  }
+
+  .javaresult {
+    font-size: 25px;
+    font-style: bold;
+    margin-top: 15px;
+  }
+
+  .javascore {
+    margin-top: 15px;
+  }
+
+  .resetjavascore, 
+  .autoplaybutton {
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }

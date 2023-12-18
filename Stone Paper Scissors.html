@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissors</title>
+  </head>
+  <body>
+    <p class=".javaresult">Stone Paper Scissors</p>
+
+    <button
+      onclick="
+      playGame('stone');
+    "
+      class="movebutton"
+    >
+      <img src="Images/stone-emoji.png" class="moveicon" />
+    </button>
+
+    <button
+      onclick="
+      playGame('paper');
+    "
+      class="movebutton"
+    >
+      <img src="Images/paper-emoji.png" class="moveicon" />
+    </button>
+
+    <button
+      onclick="
+      playGame('scissors');
+    "
+      class="movebutton"
+    >
+      <img src="Images/scissors-emoji.png" class="moveicon" />
+    </button>
+    <p class="javaresult"></p>
+    <p class="javamoves"></p>
+    <p class="javascore"></p>
+
+    <button
+      onclick="
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+    "
+      class="resetjavascore"
+    >
+      Reset Score
+    </button>
+    <button onclick="autoplay()" class="autoplaybutton">Autoplay</button>
+
+    <script src="Scripts/Stone Paper Scissors.js"></script>
+    <link rel="stylesheet" href="Styles/10.Stone Paper Scissors.css" />
+  </body>
+</html>
